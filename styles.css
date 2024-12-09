@@ -1,0 +1,77 @@
+/* .box is generally used for button in this file*/
+
+.navbar-brand img {   /* This is for logo image*/
+    width: 50px;
+    height:auto;
+}
+
+.navbar-brand {
+    color:aliceblue;  
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #B0C4DE;
+    transform: scale(1.1); 
+}
+/*
+.navbar {
+    transition: all 0.3s ease;
+    padding: 1rem 1.5rem;
+}
+
+.navbar.shrink {
+    padding: 0.5rem 1.5rem;
+}
+*/
+.nav-link {
+    color:aliceblue;  
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color:#B0C4DE;  
+    transform: scale(1.1); 
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px 0;
+    min-height: 100vh;
+}
+
+#home{
+    text-align: center;
+}
+
+#converter{
+    text-align: center;
+}
+
+#thankyou{
+    text-align: center;
+}
+
+.navbar-custom{
+    background-color: #003366;
+}
+
+.box {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #003366;
+    color: white;
+    text-decoration: none;
+    background-color: #003366;
+    border-radius: 15px;  /* for rounded appearnce */
+    transition:  0.3s, transform 0.3s;
+}
+
+.box:hover{
+    transform: scale(1.05);
+}
